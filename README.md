@@ -5,6 +5,7 @@ sudo apt update
 sudo apt install zsh
 
 // 添加 github 上的 ssh 秘钥
+
 git config --global user.name "Yra-A"
 git config --global user.email "1325083019@qq.com"
 ssh-keygen -t rsa -C "1325083019@qq.com"
