@@ -8,7 +8,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 export NODE_OPTIONS=--openssl-legacy-provider
-
 export HOMEBREW_NO_AUTO_UPDATE=true
 
 export PATH=$PATH:/usr/local/mysql/bin
